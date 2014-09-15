@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_grey">#EEEEEE</color>
+    <color name="bg_card">#DEDEDE</color>
+    <color name="bg_brown">#DCE9BE</color>
+    <color name="bg_card_brown">#EFFFCD</color>
+</resources>
