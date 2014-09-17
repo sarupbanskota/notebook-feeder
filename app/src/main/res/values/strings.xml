@@ -6,4 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="add_items">Add Items</string>
     <string name="to_db">to the database</string>
+    <string name="add_cust">Add Customers</string>
+    <string name="analytics">View Analytics</string>
+    <string name="billing">Start Billing</string>
 </resources>

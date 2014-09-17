@@ -4,4 +4,5 @@
     <color name="bg_card">#DEDEDE</color>
     <color name="bg_brown">#DCE9BE</color>
     <color name="bg_card_brown">#EFFFCD</color>
+    <color name="text_blue">#AA3f5da9</color>
 </resources>
