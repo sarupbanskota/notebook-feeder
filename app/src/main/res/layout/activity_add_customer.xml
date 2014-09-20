@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="pos.ebill.android.pos.AddCustomer">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/add_cust_card"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardBackgroundColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_fname"
+                    android:inputType="textPersonName"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="First Name"
+                    android:textSize="26sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ed_lname"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="Last Name"
+                    android:paddingTop="15dp"
+                    android:textSize="26sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/ed_mail"
+                    android:inputType="textEmailAddress"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="E-Mail"
+                    android:paddingTop="15dp"
+                    android:textSize="26sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/ed_phnum"
+                    android:hint="Phone Number"
+                    android:fontFamily="sans-serif-condensed"
+                    android:inputType="phone"
+                    android:paddingTop="15dp"
+                    android:textSize="26sp" />
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/add_button"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardBackgroundColor="#3f5da9"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="10dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:text="@string/add_user"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="35sp"
+                            android:textColor="#eeeeee"
+                            android:padding="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center"
+                            android:paddingBottom="40dp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

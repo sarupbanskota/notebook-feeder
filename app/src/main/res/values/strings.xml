@@ -9,4 +9,9 @@
     <string name="add_cust">Add Customers</string>
     <string name="analytics">View Analytics</string>
     <string name="billing">Start Billing</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_user">Create Account</string>
+    <string name="title_activity_add_item">Add New Item</string>
+    <string name="title_activity_add_customer">AddCustomer</string>
+
 </resources>
