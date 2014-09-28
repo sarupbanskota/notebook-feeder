@@ -1,4 +1,4 @@
-package pos.ebill.android.pos;
+package com.notebook.pos;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,7 @@ import android.support.v7.widget.CardView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 
 
 public class MainActivity extends Activity {

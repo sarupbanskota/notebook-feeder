@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="pos.ebill.android.pos" >
+    package="com.notebook.pos" >
 
     <uses-sdk tools:node="replace" />
 
@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.notebook.pos.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,20 +20,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddItem"
+            android:name="com.notebook.pos.AddItem"
             android:label="@string/title_activity_add_item"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.notebook.pos.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="pos.ebill.android.pos.MainActivity" />
+                android:value="com.notebook.pos.MainActivity" />
         </activity>
         <activity
-            android:name=".AddCustomer"
+            android:name="com.notebook.pos.AddCustomer"
             android:label="@string/title_activity_add_customer"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.notebook.pos.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="pos.ebill.android.pos.MainActivity" />
+                android:value="com.notebook.pos.MainActivity" />
         </activity>
     </application>
 
